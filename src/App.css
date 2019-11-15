@@ -1,0 +1,95 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-header-edit{
+  background-color: #222;
+  padding: 15px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.cards-wrapper{
+  width:50%;
+    height:318px;
+  margin:0 auto;
+    overflow: hidden;
+}
+
+.cards-content-next{
+    animation: change-cards-next 1s;
+}
+
+.cards-content-pre{
+    animation: change-cards-pre 1s;
+}
+
+@keyframes change-cards-next
+{
+    from {margin-top:0}
+    to {margin-top:-320px;}
+}
+
+@keyframes change-cards-pre
+{
+    from {margin-top:-320px}
+    to {margin-top:0;}
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.change-cards-label{
+    width:30%;
+    height:50px;
+    margin:0 auto;
+    padding-left:240px;
+}
+.change-cards-label p{
+    float:left;
+    margin-right:30px;
+    padding:6px;
+    border:1px solid brown;
+    cursor: pointer;
+}
+
+.change-cards-label p:hover{
+    background-color: lemonchiffon;
+}
+.goback{
+    margin-left:10px;
+    padding:5px;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.edit-wrapper{
+    text-align: start;
+    width:70%;
+    padding:10px;
+    margin:0 auto;
+
+}

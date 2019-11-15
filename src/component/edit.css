@@ -1,0 +1,38 @@
+.content-wrapper{
+    margin-top:10px;
+}
+
+form{
+    width:700px;
+    margin:0 auto;
+}
+form label{
+    display:block;
+    color:lightcoral;
+}
+form input{
+    width:650px;
+    border-style:none;
+    outline:none;
+    border-bottom:1px solid black;
+    font-size:16px;
+    /*letter-spacing:2px;*/
+    z-index:1;
+}
+
+form div{
+    position:relative;
+}
+form .spans{
+    width:650px;
+    height:1px;
+    position: absolute;
+    top:22px;
+    z-index:1;
+}
+
+form .spans span{
+    display:inline-block;
+    width:16px;
+    color:red;
+}
